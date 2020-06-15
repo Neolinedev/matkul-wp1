@@ -1,0 +1,48 @@
+/* Pseudo class link */
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+/* CSS Carikan a, Di dalam li yang merupakan anak pertama */
+li:first-child a {
+    color: green;
+}
+
+/* CSS Carikan a, Di dalam li yang merupakan anak terakhir */
+li:last-child a {
+    color: green;
+}
+
+/* CSS Carikan a, Di dalam li yang merupakan anak genap */
+li:nth-child(even) a {
+    color: green;
+}
+
+/* CSS Carikan a, Di dalam li yang merupakan anak ganjil */
+li:nth-child(odd) a {
+    color: violet;
+}
+
+/* CSS Carikan p, Di dalam halaman yang urutannya pertama */
+p:first-of-type {
+    color: red;
+}
+
+/* CSS Carikan p, Di dalam halaman yang urutannya terakhir */
+p:last-of-type {
+    color: orange;
+}
